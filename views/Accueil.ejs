@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Accueil</title>
+        <!-- import css + js -->
+        <style type="text/css">
+            @import url(/public/styles/Accueil.css);
+        </style>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <!-- import icone -->
+        <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+</link> 
+    </head>
+    
+    <body>
+        <div class="Information1">Bienvenue sur l'observatoire du projet HYPE13</div>
+        <div id="NavInfo" class="Information3">Choisis ta voie !</div>
+        <!-- circle navigation -->
+        <nav class="menu">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+            <label class="menu-open-button" for="menu-open">
+             <span class="lines line-1"></span>
+             <span class="lines line-2"></span> 
+             <span class="lines line-3"></span>
+           </label>
+         
+            <a href="#" id="Livrable" class="menu-item blue"> <i class="fas fa-book"></i> </a>
+            <a href="#" id="Workpackage" class="menu-item green"><i class="far fa-folder-open"></i></a>
+            <a href="#" id="Partenaire" class="menu-item red"><i class="fas fa-university"></i> </a>
+            <a href="#" id="Formulaire" class="menu-item purple"><i class="fab fa-wpforms"></i> </a>
+            <a href="#" id="Home" class="menu-item orange"><i class="fas fa-home"></i></a>
+            <a href="#" id="Tutoriel" class="menu-item lightblue"><i class="fas fa-magic"></i> </a>
+         </nav>
+         <div id="Info" class="Information2">Aller sur la circle navigation pour plus d'information</div>
+    </body>
+    <script src="/public/js/Accueil.js"></script>
+</html>
